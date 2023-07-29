@@ -1,3 +1,4 @@
+import java.io.*;
 class variables{
 
 
@@ -8,17 +9,17 @@ class variables{
 
 public  String  name ;    // Declear instans variables 
 public int i ;
-public Intger FBD ;
+public Integer  variables ;
 
 
 
 // Default Constractor
-public faridabad (){
+public void  variables(){
 
     // Default Constructor
    // initializing Instance Variable
 
-this.name = " shaktiman" ;
+this.name = " shaktiman";
 
 }
 
@@ -27,13 +28,13 @@ public static void main (String[] args){
     // Main Method
 
 
-   FBD name  = new FBD () ;  // Object Creation 
+    variables name  = new  variables();  // Object Creation 
 
 
    // Displaying O/Print
 
    System.out.println("it's  is your " + name );
-   System.out.println("Defaul value in interis "  + name.I);
+   System.out.println("Defaul value in interis "  + name.variables);
 
 
 
